@@ -2,11 +2,26 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Courses I have taught or assisted with.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## University of Maryland
 
-Organize your courses by years, topics, or universities, however you like!
+| Term | Course | Role |
+|------|--------|------|
+| Spring 2025 | MATH 140 — Calculus I | Graduate Teaching Assistant |
+| Fall 2024 | MATH 405 — Linear Algebra | Grader |
+| Spring 2024 | MATH 140 — Calculus I | Graduate Teaching Assistant |
+| Fall 2023 | MATH 403 — Introduction to Abstract Algebra | Grader |
+| Spring 2023 | MATH 107 — Intro to Mathematical Modeling and Probability | **Instructor of Record** |
+| Fall 2022 | MATH 140 — Calculus I | Graduate Teaching Assistant |
+
+## Northwestern University
+
+| Term | Course | Role |
+|------|--------|------|
+| Spring 2021 | MATH 230-1 — Multivariable Differential Calculus | Undergraduate Teaching Assistant |
+| Winter 2021 | MATH 220-1 — Single-Variable Differential Calculus | Undergraduate Teaching Assistant |
+| Fall 2020 | MATH 230-1 — Multivariable Differential Calculus | Undergraduate Teaching Assistant |
