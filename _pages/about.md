@@ -26,7 +26,7 @@ latest_posts:
 ---
 
 I am a CS PhD student at the [University of Maryland](https://cs.umd.edu),
-advised by [Professor Haizhao Yang](https://haizhaoyang.github.io/). My research focuses on AI and data-driven ML methods for solving inverse problems, in particular inverse
+advised by [Professor Haizhao Yang](https://haizhaoyang.github.io/). My research focuses on AI / ML methods for solving inverse problems, in particular inverse
 PDEs. I enjoy reseraching data-efficient, parameter-efficient, and
 compute-efficient methods for accelerating scientific computing — including
 curriculum learning and agentic workflows for scientific applications.
