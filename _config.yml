@@ -144,6 +144,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - assets/jupyter/
 keep_files:
   - CNAME
   - .nojekyll
