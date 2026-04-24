@@ -4,7 +4,6 @@ title: about
 permalink: /
 subtitle: >
   PhD Student, <a href="https://cs.umd.edu" target="_blank">UMD CS</a> ·
-  <a href="https://umd.edu" target="_blank">
   ML Engineer @ <a href="https://scale.ai" target="_blank">Scale AI</a>
 
 profile:
