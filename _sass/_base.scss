@@ -437,10 +437,19 @@ ul.task-list input[type="checkbox"] {
         transition-property: all 0.2s ease-in-out;
       }
 
+      svg {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
       &:hover {
         text-decoration: none;
 
         i::before {
+          color: var(--global-theme-color);
+        }
+
+        svg {
           color: var(--global-theme-color);
         }
       }
