@@ -27,12 +27,11 @@ latest_posts:
 
 I am a CS PhD student at the [University of Maryland](https://cs.umd.edu),
 advised by [Professor Haizhao Yang](https://haizhaoyang.github.io/). My research focuses on AI / ML methods for solving inverse problems, in particular inverse
-PDEs. I enjoy reseraching data-efficient, parameter-efficient, and
-compute-efficient methods for accelerating scientific computing — including
+PDEs. I am interested in \{data, parameter, compute\}-efficient methods for accelerating scientific computing — including
 curriculum learning and agentic workflows for scientific applications.
 
-I am also a full-time Machine Learning Engineer at [Scale AI](https://scale.ai). Before that, I was a full-time AI Software Engineer at [Argon ST](https://www.argonst.com/)
+I am also a full-time Machine Learning Engineer at [Scale AI](https://scale.ai). Before that, I was a full-time AI Software Engineer at [Argon ST](https://www.argonst.com/).
 
-In another life, I was a Mathematics PhD student (2022–2024) at UMD, where I was interested in motivic homotopy theory. My relevant work is available in my
-[master's thesis](https://doi.org/10.13016/as9f-km0b), which captures 
+In another life, I was a Mathematics PhD student (2022–2024) at UMD, where I was interested in motivic homotopy theory. My 
+[master's thesis](https://doi.org/10.13016/as9f-km0b) captures a lot of
 information missed in the standard referernces and builds up to a (expanded and corrected) proof of some key results with synthetic spectra. I moved from the Department of Mathematics to the Department of Comptuer Science in 2025. 
