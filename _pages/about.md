@@ -8,11 +8,12 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic_umd.jpg
+  # image: prof_pic_umd.jpg
+  image: prof_pic_wedding.jpg
   image_circular: false
-  more_info: >
-    <p>University of Maryland</p>
-    <p>College Park, MD 20742</p>
+  # more_info: >
+  #   <p>University of Maryland</p>
+  #   <p>College Park, MD 20742</p>
 
 selected_papers: false
 social: true
