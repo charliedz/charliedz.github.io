@@ -282,13 +282,13 @@ th { font-weight: 500; }
   <a class="skip-link" href="#main">Skip to the paper</a>
   <header class="masthead wrap">
     <span>Inverse medium scattering</span>
-    <a href="{{ '/publications/' | relative_url }}">Charlie Dziedzic · Publications</a>
+    <a href="{{ '/publications/' | relative_url }}">Back to publications</a>
   </header>
   <main id="main" class="wrap">
     <header class="paper-header">
       <h1><span>Nonlinear Latent Decoding</span> <span>for Inverse Scattering</span></h1>
       <p class="dek">An inverse network predicts latent coordinates; a decoder reconstructs the medium.</p>
-      <p class="authors">Charlie Dziedzic</p>
+      <p class="authors">Anonymous submission · under blind review</p>
       <nav class="paper-links" aria-label="Paper resources">
         <span class="stub" aria-disabled="true">Paper — forthcoming</span>
         <span class="stub" aria-disabled="true">Code — forthcoming</span>
@@ -399,7 +399,7 @@ th { font-weight: 500; }
     <section class="details-section" aria-label="Paper details">
       <details id="abstract">
         <summary>Abstract</summary>
-        <div class="details-content abstract">Inverse scattering recovers the spatially varying contrast of a medium from measurements of its scattered wavefield, a severely ill-posed inverse problem. Learned approaches usually produce reconstructions in a spatial parameterization, predicting the contrast at every grid point. We study nonlinear latent decoding instead: the inverse network predicts a lower-dimensional coordinate vector, and a learned decoder maps those coordinates to a spatial reconstruction. Our pretrained formulation combines contrast-reconstruction and latent-code losses. We also find that the method remains effective without pretraining on geometric targets, and that nonlinear decoding improves on linear latent methods for geometric and handwritten-digit targets. Across five neural-operator architectures, three target distributions, three noise levels, and multiple seeds, the pretrained formulation reduces normalized mean squared reconstruction error by 34% on average relative to the corresponding spatial-output models. On geometric targets, a jointly trained nonlinear head matched to the spatial head within 0.1% in parameters and 0.3% in multiply–accumulates reduces error by 45% with 200 training pairs and 57% with 3,200. A width sweep from 0.33 million to 10.6 million trainable parameters finds that spatial prediction does not match the latent head under the same training schedule, even at seven times the trainable parameters, and reaches parity only with two and a half times as many training epochs. These results show that nonlinear latent decoding can substantially improve learned reconstruction for a broad class of inverse-scattering problems.</div>
+        <div class="details-content abstract">Learned inverse-scattering solvers typically predict a discretized medium contrast directly on a spatial grid. We instead parameterize the output through a low-dimensional nonlinear chart: a neural operator predicts latent coordinates, and a decoder maps them to the reconstructed contrast. This intervention leaves the measurement-processing backbone unchanged and supports either pretrained, frozen decoders or decoders learned jointly from the image loss. Across five backbones—Transolver, Galerkin Transformer, OFormer, GNOT, and FFNO—three target distributions, and three noise levels, the frozen-decoder implementation lowers normalized mean squared error in 44 of 45 configurations, averaging a 34.4% reduction relative to the corresponding direct-reconstruction baselines. The result persists when measurements are generated from raw scatterers on a finer forward-solver grid. In a stricter capacity-controlled study on geometric targets, a randomly initialized 256-coordinate synthesis head, matched to a spatial head within 0.05% in parameters and 0.29% in multiply–accumulates, reduces error by 45% with 200 training pairs and 57% with 3,200, winning all ten paired seeds at both sizes. Matched-dimension, interface, and width controls show that linear compression, decoder architecture alone, and added parameter count do not explain the effect. An approximation-error analysis characterizes the obstruction imposed by fixed affine reconstruction spaces. Replications on handwritten digits and smooth random fields find the largest gains in the scarce-data regime, while organ, measured-data, and 3D Born experiments delineate the method's limits. These results identify nonlinear output parameterization as a reusable design choice for learned inverse scattering.</div>
       </details>
       <details id="controls">
         <summary>Matched-capacity controls</summary>
