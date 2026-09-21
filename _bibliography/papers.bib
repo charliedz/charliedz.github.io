@@ -12,3 +12,16 @@
   abstract  = {Master's thesis in motivic homotopy theory, University of Maryland, 2024.},
   selected  = {false}
 }
+
+@unpublished{dziedzic2026nonlinearlatent,
+  title        = {Nonlinear Latent Decoding for Inverse Scattering},
+  author       = {Dziedzic, Charlie},
+  year         = {2026},
+  note         = {Manuscript},
+  abbr         = {Manuscript},
+  abstract     = {Inverse scattering recovers the spatially varying contrast of a medium from measurements of its scattered wavefield, a severely ill-posed inverse problem. Learned approaches usually produce reconstructions in a spatial parameterization, predicting the contrast at every grid point. We study nonlinear latent decoding instead: the inverse network predicts a lower-dimensional coordinate vector, and a learned decoder maps those coordinates to a spatial reconstruction. Our pretrained formulation combines contrast-reconstruction and latent-code losses. We also find that the method remains effective without pretraining on geometric targets, and that nonlinear decoding improves on linear latent methods for geometric and handwritten-digit targets. Across five neural-operator architectures, three target distributions, three noise levels, and multiple seeds, the pretrained formulation reduces normalized mean squared reconstruction error by 34\% on average relative to the corresponding spatial-output models. On geometric targets, a jointly trained nonlinear head matched to the spatial head within 0.1\% in parameters and 0.3\% in multiply--accumulates reduces error by 45\% with 200 training pairs and 57\% with 3,200. A width sweep from 0.33 million to 10.6 million trainable parameters finds that spatial prediction does not match the latent head under the same training schedule, even at seven times the trainable parameters, and reaches parity only with two and a half times as many training epochs. These results show that nonlinear latent decoding can substantially improve learned reconstruction for a broad class of inverse-scattering problems.},
+  website      = {/publications/nonlinear-latent-decoding/},
+  preview      = {nonlinear-latent-decoding.png},
+  bibtex_show  = {true},
+  selected     = {false}
+}
