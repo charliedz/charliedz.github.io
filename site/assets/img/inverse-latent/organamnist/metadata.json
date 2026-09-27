@@ -1,0 +1,104 @@
+{
+  "protocol": "organ_fullsplit_matched_20260924_v1",
+  "selection": "first official test example in source order from each of the 11 classes",
+  "official_test_indices": [
+    1,
+    47,
+    26,
+    81,
+    0,
+    4,
+    3,
+    7,
+    2,
+    34,
+    19
+  ],
+  "labels": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "seed": 4001,
+  "checkpoint_policy": "validation_selected",
+  "checkpoints": {
+    "spatial": {
+      "path": "p2_subspace_crossover/results/organ_fullsplit_matched_v1/runs/spatial/seed_4001/model_best.pt",
+      "sha256": "db3acfc9b60fb7311cb1157051d522f4cbacb5ab2e29ce2eca5344e0de9f102a",
+      "epoch": 39
+    },
+    "synthesis_conv": {
+      "path": "p2_subspace_crossover/results/organ_fullsplit_matched_v1/runs/synthesis_conv/seed_4001/model_best.pt",
+      "sha256": "09d38dac6368e837e9644a7372f82eda308842f1cd3b867078cdde76a09fd656",
+      "epoch": 39
+    },
+    "vae_conv": {
+      "path": "p2_subspace_crossover/results/organ_fullsplit_matched_v1/runs/vae_conv/seed_4001/model_best.pt",
+      "sha256": "30b7bcae8bed5916fbad99c44fcef0780cb6920f86478896c1f9a3f99ed624d7",
+      "epoch": 40
+    }
+  },
+  "display": {
+    "palette": [
+      "#f8fbfd",
+      "#deeaf4",
+      "#89adcc",
+      "#345f88",
+      "#183d60"
+    ],
+    "range": [
+      0.0,
+      1.0
+    ],
+    "note": "Only the display palette is changed. Geometry and values come from the archived targets and model outputs."
+  },
+  "selected_sample_mse": {
+    "spatial": [
+      0.0012763520566922745,
+      0.0019338056371633486,
+      0.0009453176967695357,
+      0.002125806657169325,
+      0.002515242929255452,
+      0.0028785516116239377,
+      0.0032135691164772986,
+      0.005738700465967063,
+      0.012450281859513477,
+      0.006875957294567723,
+      0.0032489610156502626
+    ],
+    "synthesis_conv": [
+      0.0010218235398345217,
+      0.0009737978086316869,
+      0.0004703384560353385,
+      0.0013431134930193384,
+      0.002011467927862982,
+      0.001380311220216379,
+      0.0015448366061895035,
+      0.0026049504262449976,
+      0.0055055306779983795,
+      0.004327184876049706,
+      0.0019161005069102733
+    ],
+    "vae_conv": [
+      0.0009005827215426332,
+      0.001144944050662371,
+      0.0004316489465628435,
+      0.0012038926317188637,
+      0.001444052312330385,
+      0.0013184425448189473,
+      0.0013369149939311989,
+      0.002425790598242695,
+      0.0043760115482639975,
+      0.0038684544596850542,
+      0.0017227829194442067
+    ]
+  }
+}

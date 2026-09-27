@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+  <title>Bigraded — two gradings, one sphere</title>
+  <desc>A tilted wireframe sphere with two differently colored families of curves. A visual identity inspired by motivic bigraded spheres, not a literal model of a motivic space.</desc>
+  <g transform="rotate(-28 48 48)" stroke-width="3.2">
+    <circle cx="48" cy="48" r="33" stroke="#588573"/>
+    <ellipse cx="48" cy="48" rx="14" ry="33" stroke="#668fae"/>
+    <ellipse cx="48" cy="48" rx="33" ry="13" stroke="#8b79a7"/>
+    <circle cx="57.9" cy="24.7" r="3.8" fill="#668fae" stroke="none"/>
+    <circle cx="76.6" cy="54.5" r="3.8" fill="#8b79a7" stroke="none"/>
+  </g>
+</svg>

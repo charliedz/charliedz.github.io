@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+  <title>Latent — many measurements, one representation</title>
+  <desc>Three observations gather into one central coordinate and unfold into three outputs.</desc>
+  <g stroke-width="3.3" stroke-linecap="round">
+    <path d="M23 25c13 0 14 13 20 18M23 48h16M23 71c13 0 14-13 20-18" stroke="#354e47"/>
+    <path d="M53 43c6-5 7-18 20-18M57 48h16M53 53c6 5 7 18 20 18" stroke="#354e47"/>
+    <circle cx="48" cy="48" r="7" stroke="#354e47"/>
+  </g>
+  <g fill="#354e47"><circle cx="16" cy="25" r="3.4"/><circle cx="16" cy="48" r="3.4"/><circle cx="16" cy="71" r="3.4"/></g>
+  <g fill="#354e47"><circle cx="80" cy="25" r="3.4"/><circle cx="80" cy="48" r="3.4"/><circle cx="80" cy="71" r="3.4"/></g>
+</svg>

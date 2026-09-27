@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none">
+  <title>Tate — a faceted suspension</title>
+  <desc>Two suspension poles joined to a diamond equator: a geometric identity study inspired by the motivic sphere S two one, not a mathematical model of it.</desc>
+  <path d="m48 11 31 37-31 37-31-37Z" stroke="#354e47" stroke-width="3.3" stroke-linejoin="round"/>
+  <path d="m17 48 31-12 31 12-31 12Z" stroke="#354e47" stroke-width="3.3" stroke-linejoin="round"/>
+  <path d="M48 11v25m0 24v25" stroke="#354e47" stroke-width="3.3" stroke-linecap="round"/>
+  <path d="m48 11-8 28m8 46 8-28" stroke="#354e47" stroke-width="1.5"/>
+  <circle cx="48" cy="48" r="3.1" fill="#354e47"/>
+</svg>
